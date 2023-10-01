@@ -1,0 +1,35 @@
+.friends_list {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-areas:
+    "img Name"
+    "img info"
+    "img button";
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.image {
+    grid-area: img;
+}
+.image img{
+    width: 60px;
+    border-radius: 15px;
+}
+.name_profile {
+    grid-area: Name;
+}
+
+.info_profile {
+    grid-area: info;
+}
+
+.butt_profile {
+    grid-area: button;
+}
+.line{
+    border-bottom: 1px solid #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
